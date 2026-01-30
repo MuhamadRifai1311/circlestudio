@@ -1,0 +1,97 @@
+/* ===== GLOBAL (gabungan style dari index/layanan/works) ===== */
+*{margin:0;padding:0;box-sizing:border-box;font-family:"Poppins", sans-serif}
+body{background:#fff;color:#111}
+
+/* NAVBAR */
+nav{position:fixed;top:0;width:100%;display:flex;justify-content:space-between;align-items:center;padding:20px 40px;background:rgba(255,255,255,.9);border-bottom:1px solid #eee;z-index:100}
+nav img{width:140px}
+nav a{margin-left:28px;text-decoration:none;color:#444}
+nav a:hover{color:#000}
+
+/* HERO (index) */
+.hero-carousel{height:100vh;margin-top:80px;overflow:hidden}
+.carousel-track{display:flex;height:100%;transition:transform .8s ease}
+.carousel-slide{min-width:100%;background-size:cover;background-position:center;position:relative}
+.hero-overlay{position:absolute;inset:0;background:rgba(0,0,0,.3)}
+
+/* CIRCLE STUDIO */
+.circle-section{padding:120px 100px}
+.circle-desc{max-width:900px;font-size:26px;line-height:1.6;margin-bottom:80px}
+.circle-visi{color:#e63946;font-size:18px;font-weight:600;margin-bottom:24px}
+.circle-headline{font-size:64px;font-weight:800;line-height:1.2;max-width:1100px}
+
+/* MISI */
+.misi-section{padding:40px 100px}
+.misi-container{display:grid;grid-template-columns:repeat(3,1fr);gap:64px}
+.misi-item{position:relative}
+.misi-label{position:absolute;top:-32px;font-size:14px;font-style:italic;color:#e63946}
+.misi-title{font-size:48px;font-weight:800;color:#e63946;margin-bottom:24px}
+.misi-text{font-size:16px;line-height:1.9;color:#000}
+
+/* REVEAL */
+.reveal{opacity:0;transform:translateY(60px);transition:all 1s ease}
+.reveal.active{opacity:1;transform:translateY(0)}
+
+/* LAYANAN */
+.page-content{padding:160px 100px}
+.services-header{text-align:center;margin-bottom:120px}
+.services-header h1{font-family:"Roboto", sans-serif;font-size:72px;margin-bottom:24px}
+.services-header p{max-width:720px;margin:0 auto;font-size:17px;line-height:1.9;color:#444}
+.service-strip{display:flex;justify-content:space-between;border-top:1px solid #ddd;border-bottom:1px solid #ddd;padding:32px 0;margin-bottom:140px}
+.service-strip div{font-family:"Poppins", sans-serif;font-size:28px}
+.section{margin-bottom:70px}
+.section-title{font-family:"Poppins", sans-serif;font-size:52px;margin-bottom:64px}
+.cards{display:grid;grid-template-columns:1fr;gap:48px}
+.card{border-top:1px solid #ddd;padding-top:32px;display:grid;grid-template-columns:1.5fr 1fr;gap:40px}
+.card h3{font-size:20px;font-weight:600;display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.dot{width:14px;height:14px;border-radius:50%}
+.pink{background:#ff4fa1}
+.green{background:#b6ff00}
+.red{background:red}
+.card p{font-size:15px;line-height:1.8;color:#444}
+.price{font-weight:600;margin-bottom:8px}
+.badge{display:inline-block;font-size:12px;border:1px solid #000;padding:3px 10px}
+.note{font-size:12px;color:#666;margin-top:8px}
+.chat-btn{position:fixed;bottom:32px;right:32px;background:#000;color:#fff;padding:14px 22px;border-radius:999px;font-size:14px;cursor:pointer}
+
+/* WORKS (masonry) */
+.hero{padding:120px 48px;max-width:1200px;margin:0 auto}
+.hero h1{font-size:48px;font-weight:400;line-height:1.3}
+.works-masonry{column-count:4;column-gap:40px;padding:80px 48px;max-width:1900px;margin:0 auto}
+.work-card{position:relative;display:block;margin-bottom:48px;break-inside:avoid;overflow:hidden;text-decoration:none;cursor:pointer}
+.work-card img{width:100%;display:block;transition:transform 0.9s ease}
+.overlay{position:absolute;inset:0;background:rgba(0,0,0,0);display:flex;align-items:center;justify-content:center;transition:background 0.45s ease}
+.overlay span{color:#fff;font-size:18px;letter-spacing:1px;opacity:0;transform:translateY(14px);transition:all 0.45s ease}
+.work-card:hover img{transform:scale(1.06)}
+.work-card:hover .overlay{background:rgba(0,0,0,0.38)}
+.work-card:hover .overlay span{opacity:1;transform:translateY(0)}
+
+/* FOOTER */
+.site-footer{border-top:1px solid #eee;padding:80px 100px 40px;margin-top:120px}
+.footer-container{display:flex;justify-content:space-between;align-items:flex-start;gap:80px}
+.footer-left{max-width:420px}
+.footer-logo{width:75px;margin-bottom:24px}
+.footer-desc{font-size:14px;line-height:1.9;color:#111}
+.footer-right{font-size:14px;line-height:2;color:#111}
+.footer-right strong{font-weight:600}
+.footer-address{margin-top:12px}
+.footer-bottom{margin-top:60px;font-size:13px;color:#666}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  .site-footer{padding:60px 24px 32px}
+  .footer-container{flex-direction:column;gap:48px}
+  .circle-section,.misi-section,.page-content{padding:80px 24px}
+  .circle-desc{font-size:18px}
+  .circle-headline{font-size:36px}
+  .misi-container{grid-template-columns:1fr;gap:48px}
+  .misi-title{font-size:32px}
+}
+
+@media (max-width: 900px) {
+  .works-masonry{column-count:1}
+  .hero h1{font-size:32px}
+  .nav{padding:20px 40px}
+  .hero{padding:80px 24px}
+  .works-masonry{padding:48px 24px}
+}
