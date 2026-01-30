@@ -44,7 +44,7 @@
     </a>
 
     <a href="#" class="work-card">
-      <img src="/artboard 55.png" alt=""/>
+      <img src="/Artboard 55.png" alt=""/>
       <div class="overlay"><span>EASE GLOW EVERWELL</span></div>
     </a>
   </section>
