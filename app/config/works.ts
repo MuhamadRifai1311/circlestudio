@@ -13,6 +13,7 @@ export const works: work[] = [
         service: 'nsjfs',
         timeline: 'jenjks',
         img:  "/Artboard 1.png",
+        color: "bg-[#ef4036]",
         contents: [
           {
             title: "sejkfbvs",
@@ -37,6 +38,10 @@ export const works: work[] = [
         ],
         catalog: [
           {
+            img: "/Artboard 1.png",
+            alt: "kjsfnjhsdb"
+          },
+           {
             img: "/Artboard 1.png",
             alt: "kjsfnjhsdb"
           },
@@ -132,4 +137,5 @@ export const works: work[] = [
       },
     ],
   },
+  
 ];

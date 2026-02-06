@@ -85,7 +85,7 @@ const workBySlug = computed(() => {
     </section>
 
     <!-- HIGHLIGHT -->
-    <section class="bg-red-600 px-8 lg:px-24 py-20">
+    <section :class="[`px-8 lg:px-24 py-20  ` , item.color ? item.color : 'bg-black' ]">
       <div class="grid grid-cols-2 gap-8" >
         <img v-for="data in item.catalHead" :key="data.alt"
           :src="data.img" :alt="data.alt"
