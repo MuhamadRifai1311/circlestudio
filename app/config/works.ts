@@ -7,12 +7,12 @@ export const works: work[] = [
     slug: "bentalacoffe",
     detail: [
       {
-        title: "SERASA SEJIWA",
-        desc: "serasa Sejiwa mengusung identitas visual yang merepresentasikan kekuatan rasa Minang dalam balutan desain yang modern dan relevan.",
-        client: "Serasa Sejiwa",
-        service: 'Brand & Visual Guidelines & Produk Photografy',
-        timeline: '2025',
-        img:  "/logo serasa sejiwa.png",
+        title: "bentalacoffe",
+        desc: "sjfbas",
+        client: "wfjs",
+        service: 'nsjfs',
+        timeline: 'jenjks',
+        img:  "/Artboard 1.png",
         contents: [
           {
             title: "Project Background",
@@ -28,7 +28,7 @@ export const works: work[] = [
         ],
         catalog: [
           {
-            img: "/serasa sejiwa 7.gif",
+            img: "/Artboard 1.png",
             alt: "kjsfnjhsdb"
           },
            {
@@ -123,4 +123,5 @@ export const works: work[] = [
       },
     ],
   },
+  
 ];

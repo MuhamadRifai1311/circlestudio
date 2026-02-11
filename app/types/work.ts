@@ -11,6 +11,7 @@ export interface detailWork {
     client: string
     service: string
     timeline: string
+    color: string
     contents?: content[],
     catalog?: {
         img: string
@@ -19,6 +20,7 @@ export interface detailWork {
     catalHead?: {
         img: string
         alt: string
+       
     }[]
 
 }
