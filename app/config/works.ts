@@ -4,16 +4,15 @@ export const works: work[] = [
   {
     img: "/serji.gif",
     title: "SERASA SEJIWA",
-    slug: "Serasa Sejiwa",
+    slug: "bentalacoffe",
     detail: [
       {
-        title: "Serasa Sejiwa",
-        desc: "SERASA SEJIWA bukan sekadar rumah makan Padang. Ia adalah interpretasi baru dari cita rasa tradisional yang dikemas dalam identitas visual yang modern, hangat, dan relevan dengan generasi hari ini.",
+        title: "SERASA SEJIWA",
+        desc: "serasa Sejiwa mengusung identitas visual yang merepresentasikan kekuatan rasa Minang dalam balutan desain yang modern dan relevan.",
         client: "Serasa Sejiwa",
-        service: 'Brand & Visual Guidelines',
+        service: 'Brand & Visual Guidelines & Produk Photografy',
         timeline: '2025',
-        color: 'bg-[#9e1c0d]',
-        img:  "/logo serasa sejiwa.webp",
+        img:  "/logo serasa sejiwa.png",
         contents: [
           {
             title: "Project Background",
@@ -57,7 +56,7 @@ export const works: work[] = [
   {
     img: "/Artboard 5.png",
     title: "BENTALA COFFEE",
-    slug: "bentala coffee",
+    slug: "bentalacoffetwo",
     detail: [
       {
         title: "bentalacoffetwo",
@@ -70,50 +69,7 @@ export const works: work[] = [
     slug: "hit-hat",
     detail: [
       {
-        title: "Hit Hat Padel club",
-        desc: "Dari sisi graphic design, logo HIT HAT mengusung tipografi tegas dengan komposisi yang solid dan compact, menciptakan kesan power dan confidence. Integrasi elemen bola padel dalam logomark menjadi simbol movement.",
-        client: "Hit Hat Padel Club ",
-        service: 'Brand & Visual Guidelines',
-        timeline: '2025',
-        color: 'bg-[#b6f400]',
-        img:  "/main logo baru.webp",
-        contents: [
-          {
-            title: "Project Background",
-            desc: "Palet warna hijau neon dipilih sebagai statement visual yang fresh dan high-energy. Warna ini identik dengan lapangan padel sekaligus memberikan kesan sporty, modern, dan standout.",
-            img: "/Hithat 1.webp",
-          },
-           {
-            title: "Creative Direction",
-            desc: "Aplikasi logo pada apparel seperti polo dan sportswear memperkuat positioning sebagai lifestyle sports brand. Penempatan logo yang clean dan proporsional menciptakan kesan eksklusif—bukan hanya seragam klub, tetapi identitas komunitas yang bangga dikenakan.",
-            img: "/Hithat 2.webp",
-          },
-           
-        ],
-        catalog: [
-          {
-            img: "/hithat3.webp",
-            alt: "kjsfnjhsdb"
-          },
-           {
-            img: "/hithat4.webp",
-            alt: "kjsfnjhsdb"
-          },
-           {
-            img: "/hithat5.webp",
-            alt: "kjsfnjhsdb"
-          },
-        ],
-        catalHead: [
-          {
-            alt: 'afnjas',
-            img: '/hithat6.webp'
-          },
-          {
-            alt: 'afnjas',
-            img: '/hithat7.webp'
-          },
-        ]
+        title: "Hit Hat Padel CLub",
       },
     ],
   },
@@ -123,50 +79,7 @@ export const works: work[] = [
     slug: "machain",
     detail: [
       {
-        title: "Hit Hat Padel club",
-        desc: "Dari sisi graphic design, logo HIT HAT mengusung tipografi tegas dengan komposisi yang solid dan compact, menciptakan kesan power dan confidence. Integrasi elemen bola padel dalam logomark menjadi simbol movement.",
-        client: "Hit Hat Padel Club ",
-        service: 'Brand & Visual Guidelines',
-        timeline: '2025',
-        color: 'bg-[#b6f400]',
-        img:  "/main logo baru.webp",
-        contents: [
-          {
-            title: "Project Background",
-            desc: "Palet warna hijau neon dipilih sebagai statement visual yang fresh dan high-energy. Warna ini identik dengan lapangan padel sekaligus memberikan kesan sporty, modern, dan standout.",
-            img: "/Hithat 1.webp",
-          },
-           {
-            title: "Creative Direction",
-            desc: "Aplikasi logo pada apparel seperti polo dan sportswear memperkuat positioning sebagai lifestyle sports brand. Penempatan logo yang clean dan proporsional menciptakan kesan eksklusif—bukan hanya seragam klub, tetapi identitas komunitas yang bangga dikenakan.",
-            img: "/Hithat 2.webp",
-          },
-           
-        ],
-        catalog: [
-          {
-            img: "/hithat3.webp",
-            alt: "kjsfnjhsdb"
-          },
-           {
-            img: "/hithat4.webp",
-            alt: "kjsfnjhsdb"
-          },
-           {
-            img: "/hithat5.webp",
-            alt: "kjsfnjhsdb"
-          },
-        ],
-        catalHead: [
-          {
-            alt: 'afnjas',
-            img: '/hithat6.webp'
-          },
-          {
-            alt: 'afnjas',
-            img: '/hithat7.webp'
-          },
-        ]
+        title: "Machain",
       },
     ],
   },
@@ -210,5 +123,4 @@ export const works: work[] = [
       },
     ],
   },
-  
 ];
