@@ -93,37 +93,7 @@ const workBySlug = computed(() => {
         />
       </div>
     </section>
-   <div class="perspective-[1000px] w-fit m-20">
-  <div
-    class="
-      relative w-50 aspect-4/5
-      transition-transform duration-700 ease-in-out
-      transform-3d
-      hover:transform-[rotateY(180deg)]
-    "
-  >
-    <!-- DEPAN -->
-    <img
-      src="/Artboard 1.png"
-      alt="Depan"
-      class="
-        absolute inset-0 w-full h-full object-cover rounded-2xl
-        backface-hidden
-      "
-    />
 
-    <!-- BELAKANG -->
-    <img
-      src="/Artboard 2.png"
-      alt="Belakang"
-      class="
-        absolute inset-0 w-full h-full object-cover rounded-2xl
-        [transform:rotateY(180deg)]
-        [backface-visibility:hidden]
-      "
-    />
-  </div>
-</div>
 
 
 

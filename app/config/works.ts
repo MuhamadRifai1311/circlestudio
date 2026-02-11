@@ -3,60 +3,51 @@ import type { work } from "~/types/work";
 export const works: work[] = [
   {
     img: "/serji.gif",
-    title: "BENTALA COFFEE",
+    title: "SERASA SEJIWA",
     slug: "bentalacoffe",
     detail: [
       {
-        title: "bentalacoffe",
-        desc: "sjfbas",
-        client: "wfjs",
-        service: 'nsjfs',
-        timeline: 'jenjks',
-        img:  "/Artboard 1.png",
+        title: "SERASA SEJIWA",
+        desc: "serasa Sejiwa mengusung identitas visual yang merepresentasikan kekuatan rasa Minang dalam balutan desain yang modern dan relevan.",
+        client: "Serasa Sejiwa",
+        service: 'Brand & Visual Guidelines & Produk Photografy',
+        timeline: '2025',
+        img:  "/logo serasa sejiwa.png",
         contents: [
           {
-            title: "sejkfbvs",
-            desc: "snjks",
-            img: "/Artboard 1.png",
+            title: "Project Background",
+            desc: "Serasa Sejiwa hadir untuk menjembatani celah tersebut. Brand ini dikembangkan sebagai rumah makan Padang kekinian yang tetap setia pada rasa autentik Minangkabau, namun dikemas dalam identitas visual yang lebih modern, rapi, dan berkarakter.",
+            img: "/foto serji 1.png",
           },
            {
-            title: "sejkfbvs",
-            desc: "snjks",
-            img: "/Artboard 1.png",
+            title: "Creative Direction",
+            desc: "Serasa Sejiwa dibangun sebagai brand kuliner yang menyatukan jiwa masakan Minang yang kaya rasa dengan pendekatan visual modern. Setiap elemen kreatif harus terasa kuat, hangat, dan berkarakter—tidak berisik, tidak berlebihan, tetapi penuh makna.",
+            img: "/foto serji2.png",
           },
-           {
-            title: "sejkfbvs",
-            desc: "snjks",
-            img: "/Artboard 1.png",
-          },
-           {
-            title: "sejkfbvs",
-            desc: "snjks",
-            img: "/Artboard 1.png",
-          },
+           
         ],
         catalog: [
           {
-            img: "/Artboard 1.png",
+            img: "/serasa sejiwa 7.gif",
             alt: "kjsfnjhsdb"
           },
            {
-            img: "/Artboard 1.png",
+            img: "/serasa sejiwa 3.gif",
             alt: "kjsfnjhsdb"
           },
            {
-            img: "/Artboard 1.png",
+            img: "/serasa sejiwa 4.gif",
             alt: "kjsfnjhsdb"
           },
         ],
         catalHead: [
           {
             alt: 'afnjas',
-            img: '/Artboard 1.png'
+            img: '/serasa-sejiwa-motion.gif'
           },
           {
             alt: 'afnjas',
-            img: '/Artboard 1.png'
+            img: '/serasa sejiwa 5.gif'
           },
         ]
       },
