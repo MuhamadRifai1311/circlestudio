@@ -1,6 +1,6 @@
 <template>
   <!-- HERO CAROUSEL -->
-  <section class="overflow-hidden relative h-screen">
+  <section class="overflow-hidden relative h-[500px] lg:h-screen">
     <div
       ref="track"
       class="flex transition-transform duration-700 ease-in-out h-full"
@@ -8,7 +8,7 @@
       <div
         v-for="img in images"
         :key="img"
-        class="min-w-full h-full bg-cover bg-center relative"
+        class="min-w-full h-full bg-cover  bg-center relative"
         :style="`background-image:url('${img}')`"
       >
         <div class="absolute inset-0 bg-black/30"></div>
@@ -17,37 +17,37 @@
   </section>
 
   <!-- ABOUT -->
-  <div class="flex flex-col gap-10 px-30 py-20 w-full">
-    <p class="max-w-4xl text-[26px] leading-relaxed text-black">
+  <div class="flex flex-col gap-10 px-5 lg:px-30 py-10 lg:py-20 w-full">
+    <p class="w-full lg:max-w-4xl text-[13px] lg:text-[26px] leading-relaxed text-black">
       Circle Studio adalah studio desain kreatif yang berfokus pada pengembangan
       branding secara menyeluruh. Kami membantu brand membangun identitas yang
       kuat, konsisten, dan relevan—mulai dari perancangan logo, visual branding,
       foto produk, hingga pengelolaan media sosial.
     </p>
-    <p class="max-w-4xl text-[26px] leading-relaxed text-black">
+    <p class="w-full lg:max-w-4xl text-[13px] lg:text-[26px] leading-relaxed text-black">
       Dengan pendekatan strategis dan visual yang matang, Circle Studio hadir
       sebagai partner kreatif untuk mengubah ide menjadi brand yang bernilai,
       mudah dikenali, dan siap bersaing di dunia digital.
     </p>
   </div>
-  <div class="flex flex-col gap-3 px-30 py-20 w-full">
+  <div class="flex flex-col gap-3 px-5 lg:px-30  py-10 lg:py-20 w-full">
     <div class="flex-start">
-      <h2 class="text-2xl font-medium text-red-600">Visi</h2>
+      <h2 class=" text-lg lg:text-2xl font-medium text-red-600">Visi</h2>
     </div>
-    <div class="text-black font-bold text-[64px]">
+    <div class="text-black font-bold text-[24px] lg:text-[64px]">
       Menjadi studio desain kreatif yang dipercaya dalam membangun brand yang
       kuat, konsisten, dan berdampak melalui strategi visual dan komunikasi yang
       terintegrasi.
     </div>
   </div>
-  <div class="flex flex-col gap-3 px-30 py-20 w-full">
+  <div class="flex flex-col gap-3 px-5 lg:px-30 py-10 lg:py-20 w-full">
     <div class="flex-start">
-      <h2 class="text-2xl font-medium text-red-600">Misi</h2>
+      <h2 class="text-lg lg:text-2xl font-medium text-red-600">Misi</h2>
     </div>
-    <div class="flex gap-10">
-      <div class="flex flex-col gap-5 w-96" v-for="value in misi" :key="value.title"> 
-        <h2 class="text-red-600 font-medium text-[48px]">{{ value.title }}</h2>
-        <p class="text-lg">{{value.desc}}</p>
+    <div class="flex flex-col lg:flex-row gap-5 lg:gap-10">
+      <div class="flex flex-col gap-5 w-full lg:w-96" v-for="value in misi" :key="value.title"> 
+        <h2 class="text-red-600 font-medium text-[24px] lg:text-[48px]">{{ value.title }}</h2>
+        <p class="text-md lg:text-lg">{{value.desc}}</p>
       </div>
     </div>
   </div>
