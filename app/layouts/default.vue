@@ -21,8 +21,7 @@
         <div class="w-1/3">
           <img src="/black logo.jpg" class="h-10 mb-4" />
           <p class="text-sm leading-relaxed text-gray-600">
-            Memberdayakan merek-merek yang berfokus pada pengalaman, perhotelan,
-            dan kuliner untuk menemukan sisi sebenarnya dari perjalanan mereka.
+            Circle Studio adalah studio desain kreatif yang berfokus pada pengembangan branding secara menyeluruh. Kami membantu brand membangun identitas yang kuat, konsisten, dan relevan—mulai dari perancangan logo, visual branding, foto produk, hingga pengelolaan media sosial.
           </p>
         </div>
 
