@@ -93,10 +93,6 @@ const workBySlug = computed(() => {
         />
       </div>
     </section>
-<<<<<<< HEAD
-
-=======
->>>>>>> 6f7d62fe2289ad763e31a2e84e8f16a6792e12ea
 
 
 

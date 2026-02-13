@@ -44,13 +44,6 @@ import { Menu } from 'lucide-vue-next';
 
     <!-- FOOTER -->
     <footer class="border-t border-gray-200 mt-16">
-<<<<<<< HEAD
-      <div class="max-w-6xl mx-auto px-8 py-15 flex justify-between gap-8 ">
-        <div class="w-1/3">
-          <img src="/black logo.jpg" class="h-10 mb-4" />
-          <p class="text-sm leading-relaxed text-gray-600">
-            Circle Studio adalah studio desain kreatif yang berfokus pada pengembangan branding secara menyeluruh. Kami membantu brand membangun identitas yang kuat, konsisten, dan relevan—mulai dari perancangan logo, visual branding, foto produk, hingga pengelolaan media sosial.
-=======
       <div class="max-w-full lg:max-w-6xl mx-auto px-8 py-15 flex flex-col lg:flex-row justify-between gap-8">
         <div class=" lg:w-1/3">
           <img src="/black logo.jpg" class="h-7 lg:h-10 mb-4" />
@@ -60,7 +53,6 @@ import { Menu } from 'lucide-vue-next';
             membangun identitas yang kuat, konsisten, dan relevan—mulai dari
             perancangan logo, visual branding, foto produk, hingga pengelolaan
             media sosial.
->>>>>>> 6f7d62fe2289ad763e31a2e84e8f16a6792e12ea
           </p>
         </div>
 
