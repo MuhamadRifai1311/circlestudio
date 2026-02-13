@@ -57,10 +57,10 @@
 import { ref, onMounted } from "vue";
 
 const images = [
-  "/18.png",
-  "/Free Light Wood Storefront Mockup.png",
-  "/13.png",
-  "/Artboard 2.png",
+  "/id card.webp",
+  "/hithat cover new.webp",
+  "/cover bentala new.webp",
+  "/foto serji 1 new.webp",
 ];
 
 const misi = [

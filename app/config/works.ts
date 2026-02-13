@@ -2,7 +2,7 @@ import type { work } from "~/types/work";
 
 export const works: work[] = [
   {
-    img: "/serji.gif",
+    img: "/cover serasa sejiwa.webp",
     title: "SERASA SEJIWA",
     slug: "Serasa Sejiwa",
     detail: [
@@ -55,7 +55,7 @@ export const works: work[] = [
     ],
   },
   {
-    img: "/Artboard 5.png",
+    img: "/Artboard 5.webp",
     title: "BENTALA COFFEE",
     slug: "bentala coffee",
     detail: [
@@ -65,7 +65,7 @@ export const works: work[] = [
     ],
   },
   {
-    img: "/Artboard 1.png",
+    img: "/cover hithat.webp",
     title: "Hit Hat Padel CLub",
     slug: "hit-hat",
     detail: [
@@ -118,7 +118,7 @@ export const works: work[] = [
     ],
   },
   {
-    img: "/Artboard 11.png",
+    img: "/Artboard 11.webp",
     title: "Machain",
     slug: "machain",
     detail: [
@@ -181,7 +181,7 @@ export const works: work[] = [
     ],
   },
   {
-    img: "/Artboard 25.png",
+    img: "/Artboard 25.webp",
     title: "HUNTINGTON",
     slug: "baraya-studio1",
     detail: [
@@ -191,7 +191,7 @@ export const works: work[] = [
     ],
   },
   {
-    img: "/artboard 75.png",
+    img: "/artboard 75.webp",
     title: "HUNTINGTON",
     slug: "baraya-studio2",
     detail: [
@@ -201,7 +201,7 @@ export const works: work[] = [
     ],
   },
   {
-    img: "/Artboard 55.png",
+    img: "/Artboard 55.webp",
     title: "EASE GLOW EVERWELL",
     slug: "baraya-studio3",
     detail: [
