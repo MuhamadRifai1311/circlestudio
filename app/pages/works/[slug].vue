@@ -58,7 +58,7 @@ const workBySlug = computed(() => {
     <section
       class="grid grid-cols-1 gap-16 px-8 lg:px-24 pb-32 items-center"
     >
-      <div class="grid grid-cols-2" v-for="value in item?.contents" :key="value.title">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-5" v-for="value in item?.contents" :key="value.title">
         <div class="flex flex-col justify-center">
 
           <h2 class="text-2xl font-semibold mb-6">{{ value.title }}</h2>
@@ -67,11 +67,11 @@ const workBySlug = computed(() => {
           </p>
           
         </div>
-        <div>
+        <div class="overflow-hidden rounded-2xl">
           <img
             :src="value.img"
             :alt="value.title"
-            class="w-full aspect-[10/6] object-cover rounded-2xl"
+            class="w-full aspect-[10/6] object-cover rounded-2xl scale-100 hover:scale-110 duration-600 ease-in-out transition-all"
           />
         </div>
       </div>
@@ -93,7 +93,10 @@ const workBySlug = computed(() => {
         />
       </div>
     </section>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6f7d62fe2289ad763e31a2e84e8f16a6792e12ea
 
 
 

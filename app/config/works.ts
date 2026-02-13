@@ -2,7 +2,11 @@ import type { work } from "~/types/work";
 
 export const works: work[] = [
   {
+<<<<<<< HEAD
     img: "/cover serasa sejiwa.webp",
+=======
+    img: "/serji.gif",
+>>>>>>> 6f7d62fe2289ad763e31a2e84e8f16a6792e12ea
     title: "SERASA SEJIWA",
     slug: "Serasa Sejiwa",
     detail: [
